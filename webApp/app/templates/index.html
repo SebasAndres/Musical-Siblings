@@ -1,0 +1,21 @@
+<!-- FILEPATH: /C:/Users/sebas/Proyectos/MusicalMatch/webApp/app/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Musical Bro</title>
+    <script>
+        function processData() {
+            var inputText = document.getElementById("instagram_user").value;
+            window.location.href = '/app/similarUsersByMeta/' + inputText;
+        }
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center">Musical Bro</h1>
+    <div style="text-align: center">
+        <p style='text-align: center'>Usuarios registrados: {{ num_users_registered }}</p>
+        <input type="text" id="instagram_user" placeholder="@tu_instagram">
+        <button onclick="processData()">Buscar</button>
+    </div>
+</body>
+</html>

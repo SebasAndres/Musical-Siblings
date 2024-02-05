@@ -1,0 +1,12 @@
+elasticsearch
+spotipy
+scikit-learn
+pandas
+pyspark
+hashlib
+implicit
+tqdm
+plotly
+python-dotenv
+argparse
+django
